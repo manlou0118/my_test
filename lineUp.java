@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class lineUp{
+public class lineUp {
 
     public int[] doLine(int[] line){
         int[] line_up = new int[line.length];
@@ -20,6 +20,4 @@ public class lineUp{
     public static void main(String[] args) {
         lineUp myline = new lineUp();
         int[] ints = myline.doLine(new int[]{1,1,2,3});
-        System.out.println(Arrays.toString(ints));
-    }
-}
+        System.out.println(Arrays.toString(ints));}}

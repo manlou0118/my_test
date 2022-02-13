@@ -14,9 +14,9 @@ public class baofu {
           List<Integer> num_pool2 = baofu.numPool(1, 16);
           List<Integer> my_blue = baofu.chooseNum(num_pool2, 1);
           List<Integer> my_blue2 = baofu.chooseNum(num_pool2, 2);
-          System.out.println("红色号码："+my_yellow.toString());
-          System.out.println("蓝色号码："+my_blue.toString());
-          System.out.println("复式蓝色号码："+my_blue2.toString()+"\n");
+          System.out.println("黄色球号码："+my_yellow.toString());
+          System.out.println("蓝色球号码："+my_blue.toString());
+          System.out.println("复式蓝色球号码："+my_blue2.toString()+"\n");
       }
 
     }
